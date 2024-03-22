@@ -9,14 +9,16 @@ public class CustomerDemo {
 		String name,city;
 		int id;
 		
-		System.out.println("enter the name");
-		name=obj.nextLine();
 		
-		System.out.println("name is="+name);
 		//read an integer value from the use
 		System.out.println("enter the id");
 		id=obj.nextInt();
 		System.out.println("id is="+id);
+		obj.nextLine();
+		System.out.println("enter the name");
+		name=obj.nextLine();
+		
+		System.out.println("name is="+name);
 		
 	}
 
